@@ -30,7 +30,7 @@ app.get("/weather", (req, res) => {
 app.get("*", (req, res) => {
   res.render("errorPage", {
     errorMsg: "404 Error !!! Page Not Exist ",
-  });
+  }); 
 });
 
 app.listen(port, () => {
