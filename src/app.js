@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const hbs = require("hbs");
 const app = express();
-const port = process.env.PORT || 8000; // means the PORT number you manually set. 3000 is the default port . If you havent set it manually then it will listen to 3000.
+const port = process.env.PORT || 8000; // means the PORT number you manually set. 3000 is the default port . If you haven't set it manually then it will listen to 3000.
 
 const static_path = path.join(__dirname, "../public");
 const template_path = path.join(__dirname, "../templates/views");
